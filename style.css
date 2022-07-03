@@ -20,6 +20,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 130px;
 }
 .half-width{
     width: 50%;
@@ -30,7 +31,7 @@ section{
     width: 50%;
     
 }
-.hire-me-button{
+.link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     color:white;
@@ -40,4 +41,9 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
